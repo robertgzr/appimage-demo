@@ -25,6 +25,12 @@ usage: demo
 - is not part of the spec yet: https://github.com/AppImage/AppImageSpec/pull/30
 - has issues with gpg keys containing subkeys: https://github.com/AppImage/AppImageKit/issues/1010
 
+## metadata
+
+- https://docs.appimage.org/packaging-guide/optional/appstream.html
+- https://www.freedesktop.org/software/appstream/metainfocreator
+- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html
+
 ## in container
 
 ```

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>io.github.robertgzr.demo</id>
+
+  <name>demo</name>
+  <summary>Just a demo application</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>CC0-1.0</project_license>
+
+  <description>
+    <p>
+      This is a demo application to show off AppImage packaging
+    </p>
+  </description>
+
+  <icon type="stock">demo</icon>
+
+  <categories>
+    <category>Utility</category>
+    <category>Amusement</category>
+  </categories>
+
+  <provides>
+    <binary>demo</binary>
+  </provides>
+
+  <releases>
+    <release version="0.1" date="2022-10-06"></release>
+  </releases>
+</component>
