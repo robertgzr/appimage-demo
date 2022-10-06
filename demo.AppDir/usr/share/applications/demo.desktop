@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Demo
+Comment=Just a demo application
+GenericName=Demo AppImage package
+Exec=demo
+Icon=demo
+Type=Application
+Categories=Utility;
