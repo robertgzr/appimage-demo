@@ -24,3 +24,15 @@ usage: demo
 
 - is not part of the spec yet: https://github.com/AppImage/AppImageSpec/pull/30
 - has issues with gpg keys containing subkeys: https://github.com/AppImage/AppImageKit/issues/1010
+
+## in container
+
+```
+$ docker build -t appimage-demo -f Dockerfile .
+$ docker run --rm -it \
+  --mount=type=bind,src=$PWD,target=/src \
+  --mount=type=volume,src=appimage-tmp,target=/tmp \
+  --workdir=/src \
+  appimage-demo \
+  make bundle
+```

@@ -1,6 +1,8 @@
 APPNAME := demo
 ARCH := x86_64
 APPIMAGE := Demo-${ARCH}.AppImage
+
+PWD ?= $(shell pwd)
 APPDIR := ${PWD}/${APPNAME}.AppDir
 DIST := ${PWD}/dist
 
